@@ -96,10 +96,7 @@ body {
   text-align: center;
   font-size: 8.3rem;
   font-weight: bold;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-animation: colorCycle 10s ease-in-out infinite;
-  animation: colorCycle 10s ease-in-out infinite;
+  
 }
 .description div:nth-child(1) {
   background: linear-gradient(to right, #007cf0 30%, #00dfd8);
