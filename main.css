@@ -99,20 +99,20 @@ body {
   
 }
 .description div:nth-child(1) {
-  background: linear-gradient(to right, #007cf0 30%, #00dfd8);
+  background: linear-gradient(to right, #007cf0 20%, #00dfd8);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: ani1 8000ms ease infinite forwards;
 }
 
 .description div:nth-child(2) {
-  background: linear-gradient(to right, #7928ca 30%, #ff0080);
+  background: linear-gradient(to right, #7928ca 20%, #ff0080);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: ani2 8000ms ease infinite forwards;
 }
 .description div:nth-child(3) {
-  background: linear-gradient(to right, #ff4d4d 30%, #f9cb28);
+  background: linear-gradient(to right, #ff4d4d 20%, #f9cb28);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: ani3 8000ms ease infinite forwards;
@@ -125,7 +125,7 @@ body {
     -webkit-background-clip: text;
   }
   33% {
-    background: linear-gradient(to right, #007cf0 30%, #00dfd8);
+    background: linear-gradient(to right, #007cf0 20%, #00dfd8);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -152,7 +152,7 @@ body {
     -webkit-background-clip: text;
   }
   66% {
-    background: linear-gradient(to right, #7928ca 30%, #ff0080);
+    background: linear-gradient(to right, #7928ca 20%, #ff0080);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -179,7 +179,7 @@ body {
     -webkit-background-clip: text;
   }
   100% {
-    background: linear-gradient(to right, #ff4d4d 30%, #f9cb28);
+    background: linear-gradient(to right, #ff4d4d 20%, #f9cb28);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
