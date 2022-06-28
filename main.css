@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  margin: 0;
+  font-size: 85%;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 14rem;
+  box-shadow: 0 0 1px rgb(176, 174, 174);
+  position: fixed;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.image-container {
+  height: 25px;
+}
+.image-container img {
+  height: 100%;
+}
+
+.logo {
+  color: white;
+  font-family: "sans-serif";
+  display: flex;
+  align-items: center;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo h2 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.features {
+  color: rgb(176, 174, 174);
+  display: flex;
+  align-items: center;
+}
+.features div {
+  margin: 0 1rem;
+}
+
+.features div:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.contacts {
+  color: rgb(176, 174, 174);
+  display: flex;
+  align-items: center;
+}
+
+.contacts div {
+  margin: 0 1rem;
+}
+
+.contacts div:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.sign-up {
+  background: white;
+  color: black;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  background: black;
+  color: white;
+}
+
+.description {
+  color: white;
+  width: 100vw;
+  margin: 5rem auto;
+  text-align: center;
+  font-size: 8.3rem;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-animation: colorCycle 10s ease-in-out infinite;
+  animation: colorCycle 10s ease-in-out infinite;
+}
+.description div:nth-child(1) {
+  background: linear-gradient(to right, #007cf0 30%, #00dfd8);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: ani1 8000ms ease infinite forwards;
+}
+
+.description div:nth-child(2) {
+  background: linear-gradient(to right, #7928ca 30%, #ff0080);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: ani2 8000ms ease infinite forwards;
+}
+.description div:nth-child(3) {
+  background: linear-gradient(to right, #ff4d4d 30%, #f9cb28);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: ani3 8000ms ease infinite forwards;
+}
+
+@keyframes ani1 {
+  0% {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  33% {
+    background: linear-gradient(to right, #007cf0 30%, #00dfd8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  66% {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+@keyframes ani2 {
+  0% {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  33% {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  66% {
+    background: linear-gradient(to right, #7928ca 30%, #ff0080);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+@keyframes ani3 {
+  0% {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  33% {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  66% {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: linear-gradient(to right, #ff4d4d 30%, #f9cb28);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+.button-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.button-container button:nth-child(1) {
+  background: white;
+  color: black;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.button-container button:nth-child(1):hover {
+  background: black;
+  color: white;
+}
+
+.button-container button:nth-child(2) {
+  background: black;
+  color: rgb(176, 174, 174);
+  padding: 1rem 3.8rem;
+  border-radius: 5px;
+  border: 1px solid rgb(176, 174, 174);
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.button-container button:nth-child(2):hover {
+  color: white;
+  border-color: white;
+}
+
+.paragraph {
+  text-align: center;
+  color: rgb(176, 174, 174);
+  font-size: 1.2rem;
+  width: 60rem;
+  margin: 5rem auto;
+}
