@@ -1,4 +1,4 @@
-# vercel-clone
+# vercel-Homepage-clone
 Only for Educational purpose. Also Please Excuse for the div soup 😂 , on the next update will try to make it responsive
 
 
