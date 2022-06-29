@@ -96,7 +96,7 @@ body {
   text-align: center;
   font-size: 8.3rem;
   font-weight: bold;
-  
+  user-select: none;
 }
 .description div:nth-child(1) {
   background: linear-gradient(to right, #007cf0 20%, #00dfd8);
