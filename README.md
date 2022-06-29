@@ -4,5 +4,9 @@ Only for Educational purpose. Also Please Excuse for the div soup 😂 , on the 
 
 check out this clone at - https://lilastronautt.github.io/vercel-clone/
 
-End Result
-![Screenshot (15)](https://user-images.githubusercontent.com/78983125/176271381-2bdf15eb-60c2-4daa-bd9c-0401f9923861.png)
+End Result =>
+dark mode
+![Screenshot (18)](https://user-images.githubusercontent.com/78983125/176506634-8b159029-c522-4340-8410-36e3fbc6f03e.png)
+
+light mode 
+![Screenshot (19)](https://user-images.githubusercontent.com/78983125/176506698-cf691921-86d8-4fc3-a5f6-13bf5a31c970.png)
