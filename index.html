@@ -4,13 +4,13 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="dark.css" id='select-mode'/>
 </head>
 <body>
   <main>
     <div class="main-nav">
       <div class="logo">
-        <div class="image-container"><img src='./assets//vercel-icon-light.png'/></div>
+        <div class="image-container"><img src='./assets//vercel-icon-light.png' id='image'/></div>
         <h2>Vercel</h2>
       </div>
       <div class="features">
@@ -27,6 +27,12 @@
       </div>
     </div>
   </main>
+  <div>
+    <select name ="mode" class="mode" onchange="changeMode(this)">
+      <option value="dark">dark</option>
+      <option value="light">light</option>
+    </select>
+  </div>
   <section>
         <div class="description">
         <div>Devolp.</div>
@@ -44,5 +50,8 @@
       <div class="paragraph">Vercel combines the best developer experience with an obsessive focus on end-user performance.
         Our platform enables frontend teams to do their best work.</div>
     </section>
+
+    <script src="script.js"></script>
  
 </body>
+
