@@ -1,3 +1,5 @@
+/* always try to take the mobile first approach , otherwise its a mess to make it responsive afterwards */
+
 * {
   box-sizing: border-box;
 }
@@ -75,6 +77,50 @@ body {
   color: white;
 }
 
+@media (max-width: 37.5rem) {
+  body {
+    font-size: 80%;
+  }
+  .main-nav {
+    width: 100%;
+    padding: 1rem 2rem;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .logo {
+    text-align: left;
+  }
+  .contacts {
+    display: none;
+  }
+  .features {
+    display: none;
+  }
+}
+
+@media (min-width: 37.5rem) and (max-width: 62.5rem) {
+  body {
+    font-size: 85%;
+  }
+  .main-nav {
+    width: 100%;
+    padding: 1rem 2rem;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .logo {
+    text-align: left;
+  }
+  .contacts {
+    display: none;
+  }
+  .features {
+    display: none;
+  }
+}
+
 .sign-up {
   background: white;
   color: black;
@@ -82,6 +128,9 @@ body {
   border-radius: 5px;
   border: 1px solid white;
   cursor: pointer;
+  margin: 0;
+  font-size: 0.8rem;
+  width: 5.3rem;
 }
 
 .sign-up:hover {
@@ -120,6 +169,22 @@ body {
   font-weight: bold;
   user-select: none;
 }
+
+@media (max-width: 37.5rem) {
+  .description {
+    font-size: 5.3rem;
+  }
+  .mode {
+    margin: 1rem 1rem;
+  }
+}
+
+@media (min-width: 37.5rem) and (max-width: 62.5rem) {
+  .mode {
+    margin: 1rem 1rem;
+  }
+}
+
 .description div:nth-child(1) {
   background: linear-gradient(to right, #007cf0 20%, #00dfd8);
   -webkit-text-fill-color: transparent;
@@ -250,4 +315,24 @@ body {
   font-size: 1.2rem;
   width: 60rem;
   margin: 5rem auto;
+}
+
+@media (max-width: 37.5rem) {
+  .paragraph {
+    width: 90%;
+  }
+  .button-container button:nth-child(1) {
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+  .button-container button:nth-child(2) {
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+}
+
+@media (min-width: 37.5rem) and (max-width: 62.5rem) {
+  .paragraph {
+    width: 90%;
+  }
 }
